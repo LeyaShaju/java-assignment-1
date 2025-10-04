@@ -19,4 +19,8 @@ My plan-
     the card format will be a 4 by 4 and it will be based to colour matches, so in total 16 cards and 8 pairs.To start. 
     
 
+04/10/2025
+
 https://youtu.be/Zan-si4oiL0?si=ZaJhh1kO_JGqXyeg
+
+Learning to create a Gui and learning how to create and operate button using ActionListener 
