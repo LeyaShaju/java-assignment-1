@@ -18,3 +18,5 @@ what my program needs to do
 My plan-
     the card format will be a 4 by 4 and it will be based to colour matches, so in total 16 cards and 8 pairs.To start. 
     
+
+https://youtu.be/Zan-si4oiL0?si=ZaJhh1kO_JGqXyeg
