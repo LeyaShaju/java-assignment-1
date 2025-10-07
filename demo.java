@@ -44,11 +44,16 @@ public class demo implements ActionListener{
     public void actionPerformed(ActionEvent e){
         JButton clickedButton = (JButton) e.getSource();
 
-        for(int i = 0; i < numButtons; i++){
-            if(buttons[i] == clickedButton){
-                System.out.println("button" + (i+1) + "has been clicked");
+        for (int i = 0; i < numButtons; i++) {
+            if (buttons[i] == clickedButton){
+                System.out.println("button"+ (i+1) + "has been clicked");
+                buttons[i].setIcon(new ImageIcon("C:\\Users\\Leysh\\Second year\\Java\\java-assignment-1\\venice.jpeg"));
+
             }
+            
         }
+    
+        
 
     }
 
