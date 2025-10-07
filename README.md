@@ -24,3 +24,10 @@ My plan-
 https://youtu.be/Zan-si4oiL0?si=ZaJhh1kO_JGqXyeg
 
 Learning to create a Gui and learning how to create and operate button using ActionListener 
+
+https://youtu.be/gkqNh-XGJlY?si=Iz87v2xKUyth8Ozf
+
+Leanred how to implement an image as a button
+
+Summary: Initially I struggled to setup my github, I couldn't figure out hwo to obtain and gpg key and had to research. Eventually figuring it out I started with learning how to make buttons and a gui frame slowly implementing other features to like images and making a 4 by 4 grid layout. Although I struggled with making multiple buttons, I realised it's basically making and array and using the for loop which i have experience with in python, that being said Java is a lot less straightforward. Ending today with a 4 by 4 grid layout with a total of 16 cards.
+
