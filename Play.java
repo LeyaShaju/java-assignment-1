@@ -1,6 +1,6 @@
 
-public class main{
+public class Play{
     public static void main(String[] args) {
-        new demo();
+        new Game();
     }
 }

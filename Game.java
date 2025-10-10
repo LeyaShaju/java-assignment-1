@@ -1,18 +1,41 @@
 import java.awt.GridLayout;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
+import java.util.ArrayList;
+import java.util.Collections;
+import java.util.List;
+import java.util.Random;
 import javax.swing.*;
 
-public class demo implements ActionListener{
+
+public class Game implements ActionListener{
 
     JFrame frame=new JFrame();
     JPanel panel= new JPanel();
     JButton[] buttons =new JButton[16];
     int numButtons = 16;
+    String[] Fruits = {"Banana", "Orange", "Strawberry","Kiwi","Raspberry", "Apple", "Dragon fruit", "Mango"};
+    Random random = new Random();
+    String[] randomised_fruits = new String[16];
 
-    demo(){
+    Game(){
+        assignPairs();
         buttonProperties();
         prepareGui();
+    }
+
+    private void assignPairs(){
+        List<String> fruits_pairs = new ArrayList<>();
+        for(String fruit : Fruits){
+            fruits_pairs.add(fruit);
+            fruits_pairs.add(fruit);
+        }
+        Collections.shuffle(fruits_pairs, random);
+        for (int i = 0; i < numButtons; i++) {
+            randomised_fruits[i] = fruits_pairs.get(i);
+            
+        }
+
     }
 
     public void prepareGui(){
@@ -46,9 +69,14 @@ public class demo implements ActionListener{
 
         for (int i = 0; i < numButtons; i++) {
             if (buttons[i] == clickedButton){
-                System.out.println("button"+ (i+1) + "has been clicked");
+                String assigned_pair = randomised_fruits[i];
+                System.out.println("button"+ (i+1) + "has been clicked" + "assigned fruit is " + assigned_pair);
+                if(assigned_pair == "Banana"){
+                    buttons[i].setIcon(new ImageIcon("C:\\Users\\Leysh\\Second year\\Java\\java-assignment-1\\banana_icon.png"));
+                }
+                else{
                 buttons[i].setIcon(new ImageIcon("C:\\Users\\Leysh\\Second year\\Java\\java-assignment-1\\venice.jpeg"));
-
+                }
             }
             
         }

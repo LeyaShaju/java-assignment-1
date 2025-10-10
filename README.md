@@ -38,4 +38,10 @@ Summary: Initially I struggled to setup my github, I couldn't figure out hwo to 
 With help of websites like stack overflow and prior knowledge, I learned how to operate the action performed. My plan is to make whilst the buttons are being created in the for loop I will randomly assign it an attribute in pairs.
 
 
+10/10/2025
+
+
+After looking through countless websites and examples, I finally figured how to randomly asign fruits to each button. I started by creating a list called fruits, that held the names of each fruit i wanted to use. In the function assignPairs I started of creating an empty list to which i added two of each element from Fruits. Then I used the collections.shuffle to shuffle the element in the frutis_pairs list and append them to randomised list which is what will be used in the action performed function.
+
+In the actionperformed I created a variable called assigned_pair to see the assigned pair to each button and made sure everything was in order up to here. 
 
