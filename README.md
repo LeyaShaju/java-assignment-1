@@ -1,4 +1,13 @@
 # java-assignment-1
+HOW TO PLAY:
+
+To load up the game go the "Play.java" file and press Run. It should run the game
+If not, go to the terminal and type:
+javac Play.java
+java Play
+
+Make sure to full screen the page and enjoy
+
 
 aim:
 
@@ -43,5 +52,6 @@ With help of websites like stack overflow and prior knowledge, I learned how to 
 
 After looking through countless websites and examples, I finally figured how to randomly asign fruits to each button. I started by creating a list called fruits, that held the names of each fruit i wanted to use. In the function assignPairs I started of creating an empty list to which i added two of each element from Fruits. Then I used the collections.shuffle to shuffle the element in the frutis_pairs list and append them to randomised list which is what will be used in the action performed function.
 
-In the actionperformed I created a variable called assigned_pair to see the assigned pair to each button and made sure everything was in order up to here. 
+In the actionperformed I created a variable called assigned_pair to see the assigned pair to each button and made sure everything was in order up to here. to add on from this I've created an if statement so that when the button is press if the icon is say banana it will show the image of a banana, and done them for the rest. 
+
 
